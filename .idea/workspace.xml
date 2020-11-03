@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1067b3f-bf08-4348-88dd-f1c152869247" name="Default Changelist" comment="" />
+    <list default="true" id="a1067b3f-bf08-4348-88dd-f1c152869247" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/inventory/items/ItemsInventory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inventory/items/PlayerItems.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inventory/Person.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/inventory/Person.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/Config.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/Config.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/Constants.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/Constants.kt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,15 +18,22 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
         <option value="Kotlin Object" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jmTjFeVWXyA6nUpy2TQ6gQSOEE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="inventory.items" />
       <recent name="inventory.spells" />
     </key>
   </component>
@@ -67,5 +81,16 @@
       <updated>1604408400512</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

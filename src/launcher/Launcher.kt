@@ -5,8 +5,8 @@ import util.Utils
 
 //Game Launcher
 fun main(args:Array<String>){
-    var spells = Config.getPlayerSpells()
-    for (spell in spells){
-        println(spell.spellName)
+    var players = Config.getPlayers()
+    for (player in players){
+        println("${player.name} maxHp:${player.maxHp}")
     }
 }

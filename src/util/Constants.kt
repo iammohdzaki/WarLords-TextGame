@@ -4,7 +4,7 @@ package util
 /**
  * Types of Spells
  */
-object SpellType{
+object SpellType {
     const val DARK = "DARK"
     const val WHITE = "WHITE"
 }
@@ -12,7 +12,16 @@ object SpellType{
 /**
  * Types of Items
  */
-object ItemType{
+object ItemType {
     const val HEALING = "HEALING"
     const val ATTACK = "ATTACK"
+}
+
+/**
+ * Player Actions
+ */
+object PlayerActions {
+    const val ATTACK = "ATTACK"
+    const val MAGIC = "MAGIC"
+    const val ITEMS = "ITEMS"
 }
