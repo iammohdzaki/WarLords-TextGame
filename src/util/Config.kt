@@ -33,7 +33,7 @@ object Config {
     /**
      * Player Spells - Fire,Thunder,Blizzard,Meteor,Cure,Cura
      */
-    fun getPlayerSpells(): ArrayList<Spell> {
+    private fun getPlayerSpells(): ArrayList<Spell> {
         val blackSpells = ArrayList<Spell>()
         blackSpells.add(SpellsInventory.getFireSpell())
         blackSpells.add(SpellsInventory.getThunderSpell())
@@ -47,7 +47,7 @@ object Config {
     /**
      * Enemy Spells - Fire,Meteor,Curaga
      */
-    fun getEnemySpells(): ArrayList<Spell> {
+    private fun getEnemySpells(): ArrayList<Spell> {
         val whiteSpells = ArrayList<Spell>()
         whiteSpells.add(SpellsInventory.getFireSpell())
         whiteSpells.add(SpellsInventory.getMeteorSpell())
@@ -69,6 +69,9 @@ object Config {
         return playerItems
     }
 
+    /**
+     * Get Player Actions
+     */
     fun getPlayerActions(): ArrayList<String> {
         val playerActions = ArrayList<String>()
         playerActions.add(PlayerActions.ATTACK)
