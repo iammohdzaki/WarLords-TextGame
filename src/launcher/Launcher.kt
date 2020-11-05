@@ -7,6 +7,7 @@ import util.Utils
 fun main(args:Array<String>){
     var players = Config.getPlayers()
     for (player in players){
-        println("${player.name} maxHp:${player.maxHp}")
+        player.takeDamage(200)
+        player.getPlayerStats()
     }
 }

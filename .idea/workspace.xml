@@ -4,7 +4,8 @@
     <list default="true" id="a1067b3f-bf08-4348-88dd-f1c152869247" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/inventory/Person.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/inventory/Person.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/Config.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/Config.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/launcher/Launcher.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/launcher/Launcher.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/Constants.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/Constants.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +85,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

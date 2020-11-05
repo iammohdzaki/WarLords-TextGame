@@ -1,6 +1,9 @@
 package util
 
 
+const val MAX_BAR_VALUE=15
+const val MAX_MP_BAR_VALUE=10
+
 /**
  * Types of Spells
  */
