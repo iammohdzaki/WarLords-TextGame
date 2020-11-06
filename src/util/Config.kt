@@ -13,9 +13,9 @@ object Config {
      */
     fun getPlayers(): ArrayList<Person> {
         val players = ArrayList<Person>()
-        players.add(Person("Valos:", 3260, 132, 300, 34, getPlayerSpells(), getPlayerItems()))
-        players.add(Person("Nick :", 4160, 188, 311, 34, getPlayerSpells(), getPlayerItems()))
-        players.add(Person("Robot:", 3089, 174, 288, 34, getPlayerSpells(), getPlayerItems()))
+        players.add(Person("Valos ", 3260, 132, 300, 34, getPlayerSpells(), getPlayerItems()))
+        players.add(Person("Nick  ", 4160, 188, 311, 34, getPlayerSpells(), getPlayerItems()))
+        players.add(Person("Robot ", 3089, 174, 288, 34, getPlayerSpells(), getPlayerItems()))
         return players
     }
 
@@ -24,9 +24,9 @@ object Config {
      */
     fun getEnemies(): ArrayList<Person> {
         val enemies = ArrayList<Person>()
-        enemies.add(Person("Imp   :", 1250, 130, 560, 325, getEnemySpells(), ArrayList()))
-        enemies.add(Person("Magus :", 18200, 701, 525, 25, getEnemySpells(), ArrayList()))
-        enemies.add(Person("Goblin:", 1250, 130, 560, 325, getEnemySpells(), ArrayList()))
+        enemies.add(Person("Imp    ", 1250, 130, 560, 325, getEnemySpells(), ArrayList()))
+        enemies.add(Person("Magus  ", 18200, 701, 525, 25, getEnemySpells(), ArrayList()))
+        enemies.add(Person("Goblin ", 1250, 130, 560, 325, getEnemySpells(), ArrayList()))
         return enemies
     }
 

@@ -84,9 +84,9 @@ class Person(
      */
     fun chooseAction() {
         var i = 1
-        print("\nACTIONS:")
+        println("\nACTIONS:")
         for (action in actions) {
-            print("$i. $action")
+            println("$i. $action")
             i++
         }
     }
@@ -96,9 +96,9 @@ class Person(
      */
     fun chooseMagic() {
         var i = 1
-        print("\nMAGIC:")
+        println("\nMAGIC:")
         for (spell in spells) {
-            print("$i. ${spell.spellName},(Cost: ${spell.spellCost})")
+            println("$i. ${spell.spellName},(Cost: ${spell.spellCost})")
             i++
         }
     }
@@ -108,9 +108,9 @@ class Person(
      */
     fun chooseItem() {
         var i = 1
-        print("\nITEMS:")
+        println("\nITEMS:")
         for (item in items) {
-            print("$i. ${item.item.itemName} :,${item.item.itemName} (x ${item.quantity})")
+            println("$i. ${item.item.itemName} : ${item.item.itemDescription} (x ${item.quantity})")
             i++
         }
     }
@@ -123,11 +123,11 @@ class Person(
         print("\n")
         for (enemy in enemies) {
             if (enemy.hp != 0) {
-                print("$i. ${enemy.name}")
+                println("$i. ${enemy.name}")
             }
             i++
         }
-        print("Choose target:")
+        println("Choose target:")
         return (readLine()?.toInt() ?: 0) - 1
     }
 
@@ -195,7 +195,7 @@ class Person(
         }
 
         val hpStats = "$hp/$maxHp"
-        val mpStats = "$hp/$maxMp"
+        val mpStats = "$mp/$maxMp"
         print("$name  HP :|$hpBarString| $hpStats   MP :|$mpBarString| $mpStats\n")
     }
 }
